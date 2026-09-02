@@ -37,7 +37,3 @@ python run_crash_test.py
 ```
 
 The script terminates the CrewAI process at the same point, finds the latest checkpoint written after the completed Flight task, starts a new process, and restores that checkpoint. The Flight Researcher is not executed again, while the interrupted Hotel task starts again from the saved task boundary.
-
-## Generated Files
-
-The `.env`, `.venv`, `__pycache__`, `.pyc`, and `.checkpoints` files are excluded from Git through `.gitignore`.
